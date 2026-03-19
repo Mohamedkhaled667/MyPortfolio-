@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Khaled | Mobile App Developer</title>
+    <meta name="description" content="Portfolio of Mohamed Khaled, a Mobile App Developer specializing in Flutter.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- PWA & Mobile Meta Tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0ea5e9">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="MK Portfolio">
+    <link rel="apple-touch-icon" href="icon.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">MK<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                <li><a href="#about" data-en="About" data-ar="من أنا">About</a></li>
+                <li><a href="#skills" data-en="Skills" data-ar="المهارات">Skills</a></li>
+                <li><a href="#services" data-en="Services" data-ar="الخدمات">Services</a></li>
+                <li><a href="#projects" data-en="Project" data-ar="أعمالي">Project</a></li>
+                <li><a href="#testimonials" data-en="Testimonials" data-ar="التقييمات">Testimonials</a></li>
+                <li><a href="#experience" data-en="Experience" data-ar="الخبرة">Experience</a></li>
+                <li><a href="#education" data-en="Education" data-ar="التعليم">Education</a></li>
+                <li><a href="#contact" data-en="Contact" data-ar="تواصل معي">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button id="lang-toggle" aria-label="Toggle Language">عربي</button>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content fade-in-up">
+                <span class="greeting" data-en="Hi, I am" data-ar="مرحباً، أنا">Hi, I am</span>
+                <h1 class="name" data-en="Mohamed Khaled" data-ar="محمد خالد">Mohamed Khaled</h1>
+                <h2 class="title" data-en="Mobile App Developer " data-ar="مطور تطبيقات هواتف ">Mobile App Developer <span class="highlight">(Flutter)</span></h2>
+                <p class="summary" data-en="Crafting high-performance mobile applications with clean UI and a smooth user experience." data-ar="أصمم تطبيقات هواتف عالية الأداء بواجهات مستخدم نظيفة وتجربة مستخدم سلسة.">Crafting high-performance mobile applications with clean UI and a smooth user experience.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" data-en="View My Work" data-ar="شاهد أعمالي">View My Work</a>
+                    <a href="Mohamed_Khaled_CV_ATS (1).pdf" class="btn btn-outline" download data-en="Download CV" data-ar="تحميل CV"><i class="fas fa-download"></i> Download CV</a>
+                </div>
+                <div class="social-links mt-4">
+                    <a href="https://github.com/Mohamedkhaled667" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mohahmed-khaled-129a40350" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:mohammedkhaled269@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in-up delay-1">
+                <div class="blob-wrapper">
+                    <div class="blob blob-1"></div>
+                    <div class="blob blob-2"></div>
+                    <div class="profile-placeholder">
+                        <img src="photo_2026-02-14_20-21-43-removebg-preview (1).png" alt="Mohamed Khaled Profile Photo" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="section-header reveal">
+                <h2 data-en="About Me" data-ar="من أنا">About Me</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content reveal">
+                <p data-en="I am a <strong>Mobile App Developer</strong> specializing in building modern mobile applications using <span class='highlight'>Flutter</span>. I am currently a third-year student at the Faculty of Computer and Information Science at <strong>Ain Shams University</strong>." data-ar="أنا <strong>مطور تطبيقات هواتف</strong> متخصص في بناء تطبيقات حديثة باستخدام <span class='highlight'>Flutter</span>. أدرس حالياً في السنة الثالثة في كلية الحاسبات والمعلومات بـ <strong>جامعة عين شمس</strong>.">
+                    I am a <strong>Mobile App Developer</strong> specializing in building modern mobile applications using <span class="highlight">Flutter</span>. I am currently a third-year student at the Faculty of Computer and Information Science at <strong>Ain Shams University</strong>. 
+                </p>
+                <p data-en="I focus on developing high-performance mobile applications with clean UI and smooth user experience, aiming to create digital products that feel both intuitive and beautiful." data-ar="أركز على تطوير تطبيقات عالية الأداء بواجهات نظيفة وتجربة سلسة، بهدف إنشاء منتجات رقمية تبدو بديهية وجميلة في آنٍ واحد.">
+                    I focus on developing high-performance mobile applications with clean UI and smooth user experience, aiming to create digital products that feel both intuitive and beautiful.
+                </p>
+                <p data-en="I am a Mobile App Developer with a strong specialization in Flutter, dedicated to crafting innovative and high-performance mobile solutions. As a third-year student at the Faculty of Computer and Information Science, Ain Shams University, I combine academic knowledge with practical experience to deliver applications that are both visually stunning and highly functional."
+                   data-ar="أنا مطور تطبيقات هواتف بخبرة قوية في Flutter، أركز على بناء حلول مبتكرة وعالية الأداء. أدرس في السنة الثالثة بكلية الحاسبات والمعلومات بجامعة عين شمس، وأجمع بين المعرفة الأكاديمية والخبرة العملية لتقديم تطبيقات تجمع بين الجمال والوظائف العالية.">
+                    I am a Mobile App Developer with a strong specialization in Flutter, dedicated to crafting innovative and high-performance mobile solutions. As a third-year student at the Faculty of Computer and Information Science, Ain Shams University, I combine academic knowledge with practical experience to deliver applications that are both visually stunning and highly functional.
+                </p>
+                <p data-en="My passion lies in designing seamless user interfaces and ensuring a smooth, engaging user experience. I strive to build digital products that not only meet business goals but also delight users with their elegance and intuitiveness. I am committed to continuous learning and staying up-to-date with the latest technologies to create impactful mobile applications."
+                   data-ar="شغفي هو تصميم واجهات مستخدم سلسة وضمان تجربة مستخدم مميزة. أهدف إلى بناء منتجات رقمية تحقق أهداف العمل وتبهر المستخدمين بجمالها وبساطتها. ألتزم بالتعلم المستمر ومواكبة أحدث التقنيات لصناعة تطبيقات هواتف مؤثرة.">
+                    My passion lies in designing seamless user interfaces and ensuring a smooth, engaging user experience. I strive to build digital products that not only meet business goals but also delight users with their elegance and intuitiveness. I am committed to continuous learning and staying up-to-date with the latest technologies to create impactful mobile applications.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section glass-section">
+            <div class="skills-header reveal">
+                <h2><span data-en="My " data-ar="مهاراتي ">My </span><span class="gradient-text" data-en="Skills" data-ar="التقنية">Skills</span></h2>
+                <p class="skills-subtitle" data-en="Technologies, tools, and personal attributes" data-ar="التقنيات، الأدوات، والسمات الشخصية">Technologies, tools, and personal attributes</p>
+                
+                <div class="skills-tabs">
+                    <button class="tab-btn active" data-tab="technical" data-en="Technical Skills" data-ar="المهارات التقنية">Technical Skills</button>
+                    <button class="tab-btn" data-tab="tools" data-en="Tools" data-ar="الأدوات">Tools</button>
+                    <button class="tab-btn" data-tab="soft" data-en="Soft Skills" data-ar="المهارات الشخصية">Soft Skills</button>
+                </div>
+            </div>
+
+            <!-- Technical Skills Tab -->
+            <div class="tab-content active" id="technical">
+                <div class="tech-skills-grid reveal">
+                    <div class="tech-skill-card">
+                        <h3>Flutter</h3>
+                        <p>Framework</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>Dart</h3>
+                        <p>Language</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>Bloc / Cubit</h3>
+                        <p>State Management</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>REST APIs</h3>
+                        <p>Integration</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>MVVM</h3>
+                        <p>Architecture</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>Clean Code</h3>
+                        <p>Practices</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>C++ / Java / Python</h3>
+                        <p>Languages</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>SQL</h3>
+                        <p>Databases</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools Tab -->
+            <div class="tab-content" id="tools">
+                <div class="tech-skills-grid reveal">
+                    <div class="tech-skill-card">
+                        <h3>Git & GitHub</h3>
+                        <p>Version Control</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>Firebase</h3>
+                        <p>Backend / DB / Auth</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>Android Studio</h3>
+                        <p>IDE</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>VS Code</h3>
+                        <p>IDE</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>Postman</h3>
+                        <p>API Testing</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>Figma</h3>
+                        <p>UI Design</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills Tab -->
+            <div class="tab-content" id="soft">
+                <div class="tech-skills-grid reveal">
+                    <div class="tech-skill-card">
+                        <h3>Problem Solving</h3>
+                        <p>Ability to analyze challenges and provide effective solutions</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>Teamwork & Collab</h3>
+                        <p>Comfortable working in teams and collaborating on projects</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>Time Management</h3>
+                        <p>Efficient in planning and completing tasks within deadlines</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>Adaptability</h3>
+                        <p>Quick to learn new technologies and adapt to project requirements</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>Attention to Detail</h3>
+                        <p>Focused on writing clean code and creating polished UI/UX</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>Communication</h3>
+                        <p>Clear and concise in both verbal and written communication</p>
+                    </div>
+                    <div class="tech-skill-card">
+                        <h3>Creativity & Innovation</h3>
+                        <p>Generating new ideas for app features and design improvements</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section">
+            <div class="section-header reveal">
+                <h2 data-en="My Services" data-ar="خدماتي">My Services</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="services-grid reveal">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3 data-en="Mobile App Development (Flutter)" data-ar="تطوير تطبيقات الهواتف (Flutter)">Mobile App Development (Flutter)</h3>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-en="Building cross-platform mobile applications for Android & iOS" data-ar="بناء تطبيقات هواتف تعمل عبر المنصات لأندرويد و iOS">Building cross-platform mobile applications for Android & iOS</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Creating modern, responsive, and user-friendly interfaces" data-ar="تصميم واجهات حديثة، متجاوبة، وسهلة الاستخدام">Creating modern, responsive, and user-friendly interfaces</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Implementing smooth navigation and seamless user experience" data-ar="تنفيذ تنقل سلس وتجربة مستخدم مريحة">Implementing smooth navigation and seamless user experience</span></li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3 data-en="E-Commerce App Solutions" data-ar="حلول تطبيقات التجارة الإلكترونية">E-Commerce App Solutions</h3>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-en="Designing and developing e-commerce mobile applications" data-ar="تصميم وتطوير تطبيقات الهواتف للتجارة الإلكترونية">Designing and developing e-commerce mobile applications</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Product browsing, cart management, checkout systems" data-ar="تصفح المنتجات، إدارة سلة التسوق، ونظم الدفع">Product browsing, cart management, checkout systems</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Integration with payment gateways and APIs" data-ar="التكامل مع بوابات الدفع وواجهات برمجة التطبيقات (APIs)">Integration with payment gateways and APIs</span></li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-server"></i></div>
+                    <h3 data-en="API Integration & Backend Services" data-ar="ربط واجهات برمجة التطبيقات وخدمات الخلفية">API Integration & Backend Services</h3>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-en="Integrating REST APIs for dynamic content" data-ar="ربط REST APIs وعرض المحتوى الديناميكي">Integrating REST APIs for dynamic content</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Working with Firebase for authentication, database & notifications" data-ar="العمل مع Firebase للمصادقة وقواعد البيانات والإشعارات">Working with Firebase for authentication, database & notifications</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Managing app data securely and efficiently" data-ar="إدارة بيانات التطبيق بأمان وكفاءة">Managing app data securely and efficiently</span></li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-pen-nib"></i></div>
+                    <h3 data-en="UI/UX Design & Prototyping" data-ar="تصميم ونمذجة واجهات وتجربة المستخدم">UI/UX Design & Prototyping</h3>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-en="Converting Figma/Adobe XD designs into functional Flutter apps" data-ar="تحويل تصاميم Figma/Adobe XD إلى تطبيقات Flutter تفاعلية">Converting Figma/Adobe XD designs into functional Flutter apps</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Designing clean and modern interfaces with attention to detail" data-ar="تصميم واجهات أنيقة وحديثة مع الاهتمام بالتفاصيل">Designing clean and modern interfaces with attention to detail</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Ensuring responsive layouts for different screen sizes" data-ar="ضمان تجاوب التخطيط مع مختلف أحجام الشاشات">Ensuring responsive layouts for different screen sizes</span></li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-tools"></i></div>
+                    <h3 data-en="Maintenance & Support" data-ar="الصيانة والدعم الفني">Maintenance & Support</h3>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> <span data-en="Debugging and fixing app issues" data-ar="تتبع المشكلات البرمجية وإصلاح أخطاء التطبيق">Debugging and fixing app issues</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Updating apps with new features and improvements" data-ar="تحديث التطبيقات بميزات جديدة وتحسينات">Updating apps with new features and improvements</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Optimizing app performance and reducing crashes" data-ar="تحسين أداء التطبيقات وتقليل الأعطال">Optimizing app performance and reducing crashes</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="services-footer reveal">
+                <button id="toggle-pricing" class="btn btn-secondary" data-en="View Pricing" data-ar="شاهد الأسعار">View Pricing</button>
+            </div>
+            
+            <div id="pricing-table" class="pricing-container hidden">
+                <div class="pricing-grid reveal">
+                    <!-- Basic UI Plan -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 data-en="Basic UI Plan" data-ar="باقة الواجهة البسيطة">Basic UI Plan</h3>
+                            <div class="price"><span>$</span>5<small>/Project</small></div>
+                        </div>
+                        <div class="features-header" data-en="FEATURES:" data-ar="الميزات:">FEATURES:</div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-circle"></i> <span data-en="Single Screen Responsive UI" data-ar="واجهة مستخدم متجاوبة لشاشة واحدة">Single Screen Responsive UI</span></li>
+                            <li><i class="fas fa-circle"></i> <span data-en="App Debugging & Bug Fixing" data-ar="تصحيح أخطاء التطبيق وإصلاحها">App Debugging & Bug Fixing</span></li>
+                            <li><i class="fas fa-circle"></i> <span data-en="UI Assets & Icon Design" data-ar="تصميم أصول الواجهة والأيقونات">UI Assets & Icon Design</span></li>
+                            <li><i class="fas fa-circle"></i> <span data-en="1-Day Fastest Delivery" data-ar="أسرع تسليم خلال يوم واحد">1-Day Fastest Delivery</span></li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline" data-en="CHOOSE" data-ar="اختر">CHOOSE</a>
+                    </div>
+                    
+                    <!-- Professional Plan -->
+                    <div class="pricing-card featured">
+                        <div class="pricing-header">
+                            <h3 data-en="Professional Plan" data-ar="الباقة الاحترافية">Professional Plan</h3>
+                            <div class="price"><span>$</span>15<small>/Project</small></div>
+                        </div>
+                        <div class="features-header" data-en="FEATURES:" data-ar="الميزات:">FEATURES:</div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-circle"></i> <span data-en="3-5 Screen Flutter App" data-ar="تطبيق فلاتر من 3-5 شاشات">3-5 Screen Flutter App</span></li>
+                            <li><i class="fas fa-circle"></i> <span data-en="Firebase Auth & Database" data-ar="قواعد بيانات ومصادقة Firebase">Firebase Auth & Database</span></li>
+                            <li><i class="fas fa-circle"></i> <span data-en="State Management (Cubit/Bloc)" data-ar="إدارة الحالة (Cubit/Bloc)">State Management (Cubit/Bloc)</span></li>
+                            <li><i class="fas fa-circle"></i> <span data-en="Play Store / App Store Ready" data-ar="جاهز للنشر على المتاجر">Play Store / App Store Ready</span></li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary" data-en="CHOOSE" data-ar="اختر">CHOOSE</a>
+                    </div>
+                    
+                    <!-- Full-App Plan -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 data-en="Full-App Plan" data-ar="تطبيق كامل">Full-App Plan</h3>
+                            <div class="price"><span>$</span>50<small>/Project</small></div>
+                        </div>
+                        <div class="features-header" data-en="FEATURES:" data-ar="الميزات:">FEATURES:</div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-circle"></i> <span data-en="Full Featured App (7+ Screens)" data-ar="تطبيق كامل الميزات (7+ شاشات)">Full Featured App (7+ Screens)</span></li>
+                            <li><i class="fas fa-circle"></i> <span data-en="Payment Gateway Integration" data-ar="ربط بوابات الدفع">Payment Gateway Integration</span></li>
+                            <li><i class="fas fa-circle"></i> <span data-en="Admin Panel Dashboard (Web)" data-ar="لوحة تحكم للمدير (ويب)">Admin Panel Dashboard (Web)</span></li>
+                            <li><i class="fas fa-circle"></i> <span data-en="API & JSON Integration" data-ar="ربط API و JSON">API & JSON Integration</span></li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline" data-en="CHOOSE" data-ar="اختر">CHOOSE</a>
+                    </div>
+
+                    <!-- Enterprise Plan -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 data-en="Enterprise Plan" data-ar="باقة الشركات">Enterprise Plan</h3>
+                            <div class="price-contact" data-en="Contact Us" data-ar="تواصل معنا">Contact Us</div>
+                        </div>
+                        <div class="features-header" data-en="FEATURES:" data-ar="الميزات:">FEATURES:</div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-circle"></i> <span data-en="Custom Complex Architecture" data-ar="معمارية مخصصة ومعقدة">Custom Complex Architecture</span></li>
+                            <li><i class="fas fa-circle"></i> <span data-en="Scalable Cloud Infrastructure" data-ar="بنية سحابية قابلة للتوسع">Scalable Cloud Infrastructure</span></li>
+                            <li><i class="fas fa-circle"></i> <span data-en="Advanced Performance Tuning" data-ar="تحسين متقدم للأداء">Advanced Performance Tuning</span></li>
+                            <li><i class="fas fa-circle"></i> <span data-en="24/7 Premium Support" data-ar="دعم فني متميز 24/7">24/7 Premium Support</span></li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline" data-en="CHOOSE" data-ar="اختر">CHOOSE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section glass-section">
+            <div class="section-header reveal">
+                <h2 data-en="Featured Project" data-ar="عملي المميز">Featured Project</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="featured_project.png" alt="E-Commerce Mobile App Screenshot" class="project-img">
+                </div>
+                <div class="project-info">
+                    <h3 data-en="E-Commerce Mobile App" data-ar="تطبيق المتاجر الإلكترونية">E-Commerce Mobile App</h3>
+                    <p class="description" data-en="A modern e-commerce mobile application built using Flutter. The application allows users to browse products, view product details, add items to the cart, and complete purchases through a simple and user-friendly interface." data-ar="تطبيق تجارة إلكترونية حديث مبني باستخدام Flutter. يتيح للمستخدمين تصفح المنتجات وعرض تفاصيلها وإضافة منتجات لعربة التسوق وإتمام الدفع من خلال واجهة مستخدم بسيطة ومريحة.">A modern e-commerce mobile application built using Flutter. The application allows users to browse products, view product details, add items to the cart, and complete purchases through a simple and user-friendly interface.</p>
+                    <div class="features-list">
+                        <h4 data-en="Key Features:" data-ar="أهم الميزات:">Key Features:</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> <span data-en="Product browsing & details screen" data-ar="شاشات لتصفح المنتجات والتفاصيل">Product browsing & details screen</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-en="Add to cart functionality" data-ar="ميزة الإضافة لعربة التسوق">Add to cart functionality</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-en="Checkout system" data-ar="نظام إنهاء الشراء">Checkout system</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-en="Modern UI design" data-ar="متجاوب بتصميم حديث للواجهات">Modern UI design</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-en="Smooth navigation" data-ar="تنقل انسيابي وسلس">Smooth navigation</span></li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Dart</span>
+                        <span class="tech-tag">API Integration</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New Project Card: Food Delivery App -->
+            <div class="project-card reveal">
+                <div class="project-info">
+                    <h3 data-en="Food Delivery App (Talabat Style)" data-ar="تطبيق طلب الطعام (مثل طلبات)">Food Delivery App (Talabat Style)</h3>
+                    <p class="description" data-en="A comprehensive food delivery application featuring restaurant listings, menu browsing, real-time order tracking, and secure payment integration. Built with Flutter and Firebase for a seamless user experience." data-ar="تطبيق توصيل طعام شامل يتميز بقوائم المطاعم، تصفح القوائم، تتبع الطلب في الوقت الفعلي، وتكامل الدفع الآمن. مبني باستخدام Flutter و Firebase لتجربة مستخدم سلسة.">A comprehensive food delivery application featuring restaurant listings, menu browsing, real-time order tracking, and secure payment integration. Built with Flutter and Firebase for a seamless user experience.</p>
+                    <div class="features-list">
+                        <h4 data-en="Key Features:" data-ar="أهم الميزات:">Key Features:</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> <span data-en="Real-time Order Tracking" data-ar="تتبع الطلب في الوقت الفعلي">Real-time Order Tracking</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-en="Restaurant Search & Filtering" data-ar="بحث وتصفية المطاعم">Restaurant Search & Filtering</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-en="Online Payment Integration" data-ar="ربط بوابات الدفع الإلكتروني">Online Payment Integration</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-en="Order History & Profile" data-ar="سجل الطلبات والملف الشخصي">Order History & Profile</span></li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Dart</span>
+                        <span class="tech-tag">API Integration</span>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="talabat_project.png" alt="Food Delivery App Mockup" class="project-img">
+                </div>
+            </div>
+        </section>
+        
+        <section id="testimonials" class="testimonials section">
+            <div class="section-header reveal">
+                <h2 data-en="Testimonials" data-ar="التقييمات">Testimonials</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="testimonials-grid reveal">
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="review" data-en="Mohamed is an exceptional Flutter developer. He delivered our app on time and the UI is stunning." data-ar="محمد مطور فلاتر استثنائي. سلم تطبيقنا في الوقت المحدد وواجهة المستخدم مذهلة.">Mohamed is an exceptional Flutter developer. He delivered our app on time and the UI is stunning.</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4 class="author-name">Sarah Johnson</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="review" data-en="Working with Mohamed was a great experience. His attention to detail in the e-commerce app was impressive." data-ar="العمل مع محمد كان تجربة رائعة. اهتمامه بالتفاصيل في تطبيق المتجر الإلكتروني كان مبهرًا.">Working with Mohamed was a great experience. His attention to detail in the e-commerce app was impressive.</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4 class="author-name">Ahmed Ali</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="review" data-en="Highly recommended for any mobile project. Very communicative and skilled." data-ar="أنصح به بشدة لأي مشروع موبايل. محترف جداً في التواصل ومهاري.">Highly recommended for any mobile project. Very communicative and skilled.</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4 class="author-name">Jessica Lee</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section">
+            <div class="section-header reveal">
+                <h2 data-en="Experience" data-ar="الخبرة">Experience</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="timeline reveal">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date" data-en="2024 – Present" data-ar="2024 – إلى الآن">2024 – Present</div>
+                        <h3 data-en="Flutter Mobile App Developer (Trainee)" data-ar="مطور تطبيقات هواتف Flutter (متدرب)">Flutter Mobile App Developer (Trainee)</h3>
+                        <h4 data-en="Self Projects & Training" data-ar="مشاريع ذاتية وتدريب">Self Projects & Training</h4>
+                        <ul class="experience-list">
+                            <li><i class="fas fa-chevron-right"></i> <span data-en="Developing cross-platform mobile applications using Flutter and Dart" data-ar="تطوير تطبيقات هواتف عبر المنصات باستخدام فلاتر و دارت">Developing cross-platform mobile applications using Flutter and Dart</span></li>
+                            <li><i class="fas fa-chevron-right"></i> <span data-en="Designing responsive and user-friendly mobile interfaces" data-ar="تصميم واجهات هواتف متجاوبة وسهلة الاستخدام">Designing responsive and user-friendly mobile interfaces</span></li>
+                            <li><i class="fas fa-chevron-right"></i> <span data-en="Integrating REST APIs to fetch and display dynamic data" data-ar="ربط واجهات برمجة التطبيقات (REST APIs) لجلب وعرض البيانات الديناميكية">Integrating REST APIs to fetch and display dynamic data</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-en="Implementing state management for scalable app architecture" data-ar="تطبيق إدارة الحالة لبناء معمارية تطبيق قابلة للتوسع">Implementing state management for scalable app architecture</span></li>
+                            <li><i class="fas fa-chevron-right"></i> <span data-en="Working with Firebase for backend services and authentication" data-ar="العمل مع Firebase لخدمات الخلفية والمصادقة">Working with Firebase for backend services and authentication</span></li>
+                            <li><i class="fas fa-chevron-right"></i> <span data-en="Using Git and GitHub for version control and project management" data-ar="استخدام Git و GitHub للتحكم في الإصدارات وإدارة المشاريع">Using Git and GitHub for version control and project management</span></li>
+                            <li><i class="fas fa-chevron-right"></i> <span data-en="Testing and debugging applications to ensure performance and reliability" data-ar="اختبار التطبيقات وتصحيح الأخطاء لضمان الأداء والموثوقية">Testing and debugging applications to ensure performance and reliability</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-en="Mobile App Development Trainee" data-ar="متدرب تطوير تطبيقات الهواتف">Mobile App Development Trainee</h3>
+                        <h4 data-en="Flutter Training Program" data-ar="برنامج تدريب Flutter">Flutter Training Program</h4>
+                        <ul class="experience-list">
+                            <li><i class="fas fa-chevron-right"></i> <span data-en="Learning modern mobile development using Flutter" data-ar="تعلم تطوير تطبيقات الهواتف الحديثة باستخدام Flutter">Learning modern mobile development using Flutter</span></li>
+                            <li><i class="fas fa-chevron-right"></i> <span data-en="Building real-world mobile app projects" data-ar="بناء مشاريع تطبيقات هواتف حقيقية">Building real-world mobile app projects</span></li>
+                            <li><i class="fas fa-chevron-right"></i> <span data-en="Implementing UI designs using Flutter widgets" data-ar="تطبيق تصاميم الواجهات باستخدام عناصر (Widgets) فلاتر">Implementing UI designs using Flutter widgets</span></li>
+                            <li><i class="fas fa-chevron-right"></i> <span data-en="Working with APIs and JSON data" data-ar="العمل مع واجهات برمجة التطبيقات وبيانات JSON">Working with APIs and JSON data</span></li>
+                            <li><i class="fas fa-chevron-right"></i> <span data-en="Understanding mobile app architecture and best practices" data-ar="فهم معمارية تطبيقات الهواتف وأفضل الممارسات">Understanding mobile app architecture and best practices</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section glass-section">
+            <div class="section-header reveal">
+                <h2 data-en="Education" data-ar="التعليم">Education</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="timeline reveal">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date" data-en="2023 – 2027" data-ar="2023 – 2027">2023 – 2027</div>
+                        <h3 data-en="Faculty of Computer and Information Science" data-ar="كلية الحاسبات والمعلومات">Faculty of Computer and Information Science</h3>
+                        <h4 data-en="Ain Shams University" data-ar="جامعة عين شمس">Ain Shams University</h4>
+                        <p data-en="Currently studying, strengthening foundational knowledge in software engineering, programming, and system design alongside mobile development expertise." data-ar="أدرس حالياً وأعمل على تعزيز أسس ومبادئ هندسة البرمجيات، البرمجة، وتصميم النظم جنباً إلى جنب مع خبرتي في تطوير الهواتف.">Currently studying, strengthening foundational knowledge in software engineering, programming, and system design alongside mobile development expertise.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="section-header reveal">
+                <h2 data-en="Get in Touch" data-ar="تواصل معي">Get in Touch</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-container reveal">
+                <div class="contact-text">
+                    <p data-en="I am always open to discussing new projects, creative ideas or opportunities to be part of your vision." data-ar="أنا مرحب دائماً بمناقشة المشاريع الجديدة، الأفكار الإبداعية أو أية فرص لأكون جزءاً من رؤيتك.">I am always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                </div>
+                <div class="contact-info-grid">
+                    <a href="mailto:mohammedkhaled269@gmail.com" class="contact-card">
+                        <div class="icon-wrapper"><i class="fas fa-envelope"></i></div>
+                        <h3 data-en="Email" data-ar="البريد الإلكتروني">Email</h3>
+                        <p>mohammedkhaled269@gmail.com</p>
+                    </a>
+                    <a href="https://wa.me/201148897482" target="_blank" class="contact-card whatsapp-card">
+                        <div class="icon-wrapper"><i class="fab fa-whatsapp"></i></div>
+                        <h3 data-en="WhatsApp" data-ar="واتساب">WhatsApp</h3>
+                        <p>01148897482</p>
+                    </a>
+                    <div class="contact-card">
+                        <div class="icon-wrapper"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3 data-en="Location" data-ar="الموقع">Location</h3>
+                        <p data-en="Cairo, Egypt" data-ar="القاهرة، مصر">Cairo, Egypt</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">MK<span>.</span></div>
+            <div class="footer-social">
+                <a href="https://github.com/Mohamedkhaled667" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohahmed-khaled-129a40350" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p data-en="&copy; 2026 Mohamed Khaled. All rights reserved." data-ar="&copy; 2026 محمد خالد. جميع الحقوق محفوظة.">&copy; 2026 Mohamed Khaled. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
