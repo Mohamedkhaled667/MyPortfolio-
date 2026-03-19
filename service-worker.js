@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mk-portfolio-v1';
+const CACHE_NAME = 'mk-portfolio-v2';
 const ASSETS = [
     './',
     './index.html',
