@@ -9,17 +9,12 @@
   "icons": [
     {
       "src": "icon.png",
-      "sizes": "192x192",
+      "sizes": "192x192 512x512 640x640",
       "type": "image/png"
     },
     {
       "src": "icon.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "icon.png",
-      "sizes": "512x512",
+      "sizes": "192x192 512x512 640x640",
       "type": "image/png",
       "purpose": "any maskable"
     }
